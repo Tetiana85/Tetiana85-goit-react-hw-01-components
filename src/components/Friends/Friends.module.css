@@ -1,0 +1,47 @@
+.friendList {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 30px auto;
+  list-style-type: none;
+  gap: 10px;
+  margin: 0 auto;
+  width: 448px;
+  padding-left: 0;
+}
+
+.item {
+  background-color: #fff;
+  border: 1px solid rgb(202, 201, 201);
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px rgb(202, 201, 201);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 20px; /* Оновлений спосіб вказання відступів */
+  gap: 5px;
+}
+.status {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.avatar {
+  padding: 5px;
+  border: 0.5px solid rgb(202, 201, 201);
+  border-radius: 5px;
+}
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+}
