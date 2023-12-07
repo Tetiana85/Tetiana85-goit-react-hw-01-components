@@ -21,6 +21,7 @@ body {
   justify-content: center;
   list-style-type: none;
   padding-left: 0;
+  padding-bottom: 20px;
 }
 .item {
   display: flex;
